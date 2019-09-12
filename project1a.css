@@ -1,0 +1,76 @@
+header {
+    display: flex;
+    justify-content: center; 
+}
+
+html {
+    background-color: rgb(53, 42, 8);
+    color: rgb(255, 239, 186)
+}
+
+h3 {
+    color: blanchedalmond;
+    margin: 0px;
+}
+
+
+#container {
+    margin: 0 auto;
+    width: 950px;
+    font-family: Arial, Helvetica, sans-serif;
+   /* border: solid 1px orange;  reference */
+}
+
+#aboutme {
+    display: flex;
+   /* border: solid 1px black;  reference */
+    margin: 10px;
+    
+}
+#aboutme-details {
+    margin-left: 10px;
+    width: 100%;
+}
+
+#aboutme-details-namedate {
+    display: flex;
+    justify-content:space-between;
+}
+
+#aboutme-details-devlist {
+    background-color: rgb(66, 61, 53);
+    padding: 10px;
+}
+
+#tech {
+    display: flex;
+    justify-content: space-between;
+}
+
+figure {
+    margin: 5px;
+}
+    
+figure img {
+    margin: 0px;
+    max-height: 220px;    
+}
+
+figcaption {
+    color: rgb(255, 239, 186);
+    border: 1px solid rgb(255, 239, 186);
+    text-align: center;
+    background:rgba(3,3,3,0.5);
+    position: relative;
+    bottom: 25px;
+}
+
+    
+#para{
+    background-color: rgb(66, 61, 53);
+    padding: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
